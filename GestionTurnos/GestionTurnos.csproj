@@ -60,6 +60,12 @@
     <Compile Include="UI\FrmAsesor.Designer.cs">
       <DependentUpon>FrmAsesor.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
