@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GestionTurnos
 {
-    public partial class Form1 : Form
+    public partial class FrmAdmin : Form
     {
-        public Form1()
+        public FrmAdmin()
         {
             InitializeComponent();
         }
