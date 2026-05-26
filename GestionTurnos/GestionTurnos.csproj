@@ -57,6 +57,9 @@
     <Compile Include="Entidades\TurnoGeneral.cs" />
     <Compile Include="Entidades\TurnoPrioritario.cs" />
     <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="logicanegocio\Atencion.cs" />
+    <Compile Include="logicanegocio\Factories\TurnoFactory.cs" />
+    <Compile Include="logicanegocio\SessionManager.cs" />
     <Compile Include="Presentacion\FormularioFactory.cs" />
     <Compile Include="Presentacion\FrmRecepcion.cs">
       <SubType>Form</SubType>
