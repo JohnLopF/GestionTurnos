@@ -1,9 +1,9 @@
 ﻿using GestionTurnos;
-using GestionTurnos.UI;
 using SistemaTurnos.Entidades;
 using SistemaTurnos.LogicaNegocio;
 // Asegúrate de tener los using de tus formularios aquí
 using SistemaTurnos.Presentacion;
+using SistemaTurnos.UI;
 using System;
 using System.Windows.Forms;
 
