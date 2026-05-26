@@ -51,6 +51,12 @@
     <Compile Include="AccesoDatos\Repositorios\TurnoRepository.cs" />
     <Compile Include="AccesoDatos\Repositorios\UsuarioRepository.cs" />
     <Compile Include="Entidades\Atencion.cs" />
+    <Compile Include="Entidades\ModuloAtencion.cs" />
+    <Compile Include="Entidades\Rol.cs" />
+    <Compile Include="Entidades\Turno.cs" />
+    <Compile Include="Entidades\TurnoGeneral.cs" />
+    <Compile Include="Entidades\TurnoPrioritario.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Presentacion\FormularioFactory.cs" />
     <Compile Include="Presentacion\FrmRecepcion.cs">
       <SubType>Form</SubType>
