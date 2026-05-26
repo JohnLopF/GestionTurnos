@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaTurnos.Presentacion;
 
-namespace GestionTurnos
+namespace SistemaTurnos
 {
     internal static class Program
     {
@@ -16,7 +17,7 @@ namespace GestionTurnos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAdmin());
+            Application.Run(new FrmLogin());
         }
     }
 }
