@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="AccesoDatos\DatabaseConnection.cs" />
     <Compile Include="AccesoDatos\Interfaces\IRepository.cs" />
+    <Compile Include="AccesoDatos\Repositorios\TurnoRepository.cs" />
+    <Compile Include="AccesoDatos\Repositorios\UsuarioRepository.cs" />
     <Compile Include="UI\FormularioFactory.cs" />
     <Compile Include="UI\FrmRecepcion.cs">
       <SubType>Form</SubType>
