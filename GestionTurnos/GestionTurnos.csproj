@@ -79,6 +79,12 @@
     <Compile Include="UI\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmSeleccionModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmSeleccionModulo.Designer.cs">
+      <DependentUpon>FrmSeleccionModulo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
