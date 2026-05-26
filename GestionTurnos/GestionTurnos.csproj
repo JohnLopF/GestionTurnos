@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos\DatabaseConnection.cs" />
     <Compile Include="UI\FormularioFactory.cs" />
     <Compile Include="UI\FrmRecepcion.cs">
       <SubType>Form</SubType>
