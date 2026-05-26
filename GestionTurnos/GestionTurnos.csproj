@@ -50,43 +50,44 @@
     <Compile Include="AccesoDatos\Interfaces\IRepository.cs" />
     <Compile Include="AccesoDatos\Repositorios\TurnoRepository.cs" />
     <Compile Include="AccesoDatos\Repositorios\UsuarioRepository.cs" />
-    <Compile Include="UI\FormularioFactory.cs" />
-    <Compile Include="UI\FrmRecepcion.cs">
+    <Compile Include="Entidades\Atencion.cs" />
+    <Compile Include="Presentacion\FormularioFactory.cs" />
+    <Compile Include="Presentacion\FrmRecepcion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmRecepcion.Designer.cs">
+    <Compile Include="Presentacion\FrmRecepcion.Designer.cs">
       <DependentUpon>FrmRecepcion.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmAdmin.cs">
+    <Compile Include="Presentacion\FrmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmAdmin.Designer.cs">
+    <Compile Include="Presentacion\FrmAdmin.Designer.cs">
       <DependentUpon>FrmAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\FrmAsesor.cs">
+    <Compile Include="Presentacion\FrmAsesor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmAsesor.Designer.cs">
+    <Compile Include="Presentacion\FrmAsesor.Designer.cs">
       <DependentUpon>FrmAsesor.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmDashboard.cs">
+    <Compile Include="Presentacion\FrmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmDashboard.Designer.cs">
+    <Compile Include="Presentacion\FrmDashboard.Designer.cs">
       <DependentUpon>FrmDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmLogin.cs">
+    <Compile Include="Presentacion\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmLogin.Designer.cs">
+    <Compile Include="Presentacion\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmSeleccionModulo.cs">
+    <Compile Include="Presentacion\FrmSeleccionModulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmSeleccionModulo.Designer.cs">
+    <Compile Include="Presentacion\FrmSeleccionModulo.Designer.cs">
       <DependentUpon>FrmSeleccionModulo.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">

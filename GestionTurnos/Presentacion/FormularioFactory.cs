@@ -1,5 +1,4 @@
 ﻿using GestionTurnos;
-using GestionTurnos.UI;
 using System;
 using System.Windows.Forms;
 
